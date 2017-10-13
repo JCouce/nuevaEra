@@ -6,6 +6,7 @@
     'app.widgets',
     'app.admin',
     'app.home',
+    'app.races',
     'app.layout'
   ]);
 

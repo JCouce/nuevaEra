@@ -52,7 +52,7 @@
           </div>
         </div>
       </div>
-            <div class="row">
+      <div class="row">
         <div class="col-md-6">
           <div class="widget worange">
             <div ht-widget-header title="Races" allow-collapse="true"></div>
@@ -62,16 +62,14 @@
                   <tr>
                     <th>Race Name</th>
                     <th>Initial HP</th>
-                    <th>Points</th>
-                    <th>Location</th>
+                    <th>Enviroment</th>
                   </tr>
                 </thead>
                 <tbody>
-                  <tr ng-repeat="p in vm.people">
-                    <td>{{p.firstName}}</td>
-                    <td>{{p.class}}</td>
-                    <td>{{p.points}}</td>
-                    <td>{{p.location}}</td>
+                  <tr ng-repeat="races in vm.races.names">
+                    <td>{{races.name}}</td>
+                    <td>{{races.iHp}}</td>
+                    <td>{{races.env}}</td>
                   </tr>
                 </tbody>
               </table>
@@ -81,6 +79,7 @@
             </div>
           </div>
         </div>
+        
       </div>
     </div>
   </section>

@@ -11,7 +11,8 @@
     var service = {
       getPeople: getPeople,
       getMessageCount: getMessageCount,
-      getClases: getClases
+      getClases: getClases,
+      getRaces: getRaces
     };
 
     return service;

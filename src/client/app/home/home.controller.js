@@ -18,7 +18,7 @@
     activate();
 
     function activate() {
-      var promises = [getMessageCount(), getPeople(), getClases()];
+      var promises = [getMessageCount(), getPeople(), getClases(), getRaces()];
       return $q.all(promises).then(function() {
         logger.info('Activated Home View');
       });

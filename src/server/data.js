@@ -16,7 +16,6 @@ function getPeople() {
     { id: 8, firstName: 'Aaron', class: 'Rogue', points: 22, location: 'Utah' }
   ];
 }
-
 function getClases() {
   return {
     title: 'Aviable clases',
@@ -52,27 +51,39 @@ function getRaces() {
     names:[
       {
         id   : 1,
-        name : 'Korrn'
+        name : 'Korrn',
+        iHp  : 34,
+        env  : 'Forest'
       },
       {
         id   : 2,
-        name : 'Klingon'
+        name : 'Klingon',
+        iHp  : 34,
+        env  : 'Forest'
       },
       {
         id   : 3,
-        name : 'Arian'
+        name : 'Arian',
+        iHp  : 34,
+        env  : 'Forest'
       },
       {
         id   : 4,
-        name : 'Krogan'
+        name : 'Krogan',
+        iHp  : 34,
+        env  : 'Forest'
       },
       {
         id   : 5,
-        name : 'Human'
+        name : 'Human',
+        iHp  : 34,
+        env  : 'Forest'
       },
       {
         id   : 6,
-        name : 'Yaang'
+        name : 'Yaang',
+        iHp  : 34,
+        env  : 'Forest'
       }
     ]
   };
