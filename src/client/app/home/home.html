@@ -1,0 +1,87 @@
+<section id="home-view" class="mainbar">
+  <section class="matter">
+    <div class="container">
+      <div class="row">
+        <div class="text-center">
+          <strong>Presentacion nueva era</strong>
+          <p> Descripcion nueva era</p>
+          <img class="pull-right" src="images/icon.png" alt="el gif de busy">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="widget worange">
+            <div ht-widget-header title="People" allow-collapse="true"></div>
+            <div class="widget-content text-center text-info">
+              <table class="table table-condensed table-striped">
+                <thead>
+                  <tr>
+                    <th>First Name</th>
+                    <th>Class</th>
+                    <th>Points</th>
+                    <th>Location</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr ng-repeat="p in vm.people">
+                    <td>{{p.firstName}}</td>
+                    <td>{{p.class}}</td>
+                    <td>{{p.points}}</td>
+                    <td>{{p.location}}</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="widget-foot">
+              <div class="clearfix"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="widget worange">
+            <div ht-widget-header title="{{vm.class.title}}" allow-collapse="true"></div>
+            <div class="widget-content text-info">
+              <small>{{vm.class.description}}</small>
+              <ul>
+                <li ng-repeat="class in vm.class.names"> {{class.name}} </li>
+              </ul>
+            </div>
+            <div class="widget-foot">
+              <div class="clearfix"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+            <div class="row">
+        <div class="col-md-6">
+          <div class="widget worange">
+            <div ht-widget-header title="Races" allow-collapse="true"></div>
+            <div class="widget-content text-center text-info">
+              <table class="table table-condensed table-striped">
+                <thead>
+                  <tr>
+                    <th>Race Name</th>
+                    <th>Initial HP</th>
+                    <th>Points</th>
+                    <th>Location</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr ng-repeat="p in vm.people">
+                    <td>{{p.firstName}}</td>
+                    <td>{{p.class}}</td>
+                    <td>{{p.points}}</td>
+                    <td>{{p.location}}</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="widget-foot">
+              <div class="clearfix"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</section>
